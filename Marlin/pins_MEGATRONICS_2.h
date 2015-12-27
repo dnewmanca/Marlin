@@ -14,9 +14,12 @@
 #define X_MIN_PIN 37
 #define X_MAX_PIN 40
 
-#define Y_STEP_PIN 4 // A6
-#define Y_DIR_PIN 54 // A0
-#define Y_ENABLE_PIN 5
+//#define Y_STEP_PIN 4 // A6
+//#define Y_DIR_PIN 54 // A0
+//#define Y_ENABLE_PIN 5
+#define Y_STEP_PIN 23   // Using E2 Value
+#define Y_DIR_PIN 24    // Using E2 Value
+#define Y_ENABLE_PIN 22 // Using E2 Value
 #define Y_MIN_PIN 41
 #define Y_MAX_PIN 38
 
@@ -34,9 +37,9 @@
 #define E1_DIR_PIN 39
 #define E1_ENABLE_PIN 28
 
-#define E2_STEP_PIN 23
-#define E2_DIR_PIN 24
-#define E2_ENABLE_PIN 22
+//#define E2_STEP_PIN 23
+//#define E2_DIR_PIN 24
+//#define E2_ENABLE_PIN 22
 
 #define SDPOWER -1
 #define SDSS 53
